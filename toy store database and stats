@@ -1,0 +1,37 @@
+create table toy_store (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, quantity INTEGER, rating INTEGER);
+INSERT into toy_store VALUES (1,"Doll", 10,10,7);
+INSERT into toy_store VALUES (2, "car", 5, 20,4);
+INSERT into toy_store VALUES (3, "blocks", 15, 15,9);
+INSERT into toy_store VALUES (4, "book", 5,30, 3);
+INSERT into toy_store VALUES (5, "crayons", 3, 10,6);
+INSERT into toy_store VAlues (6, "dinosaurs", 5, 50, 5);
+INSERT into toy_store VALUES (7, "video games", 60, 20, 10);
+INSERT into toy_store VALUES (8, "dress ups", 30, 20, 7);
+INSERT into toy_store VALUES (9, "clay", 1, 40,6);
+INSERT into toy_store VALUES (10, "music", 30, 5,4);
+INSERT into toy_store VALUES (11, "trains", 20, 5,5);
+INSERT into toy_store VALUES (12,"food", 5, 10,3);
+INSERT into toy_store VAlUES (13, "jewlery", 10, 10,8);
+INSERT into toy_store VALUES (14, "shapes", 5, 10, 3);
+INSERT into toy_store VALUES (15, "baby", 20, 5, 2);
+SELECT * FROM toy_store;
+SELECT * FROM toy_store;
+SELECT * FROM toy_store;
+SELECT * FROM toy_store;
+SELECT * FROM toy_store;
+SELECT * FROM toy_store;
+SELECT * FROM toy_store;
+SELECT * FROM toy_store;
+SELECT * FROM toy_store;
+SELECT * FROM toy_store;
+
+SELECT * FROM toy_store WHERE price ORDER BY price;
+SELECT * FROM toy_store WHERE rating ORDER BY Rating;
+
+
+
+
+
+
+
+
